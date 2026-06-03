@@ -9,8 +9,8 @@
         android:theme="@style/AppTheme" >
         
         <!-- Declares the input method service -->
-        <service android:name="AdbIME"
-            android:label="@string/keyboard_name"
+        <service android:name=".XgIME"
+            android:label="@string/key_name"
             android:exported="false"
             android:permission="android.permission.BIND_INPUT_METHOD">
             <intent-filter>

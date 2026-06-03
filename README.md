@@ -45,8 +45,8 @@ How to Use
  * Enable 'ADBKeyBoard' in the Language&Input Settings OR from adb.
 ```
 adb install ADBKeyboard.apk 
-adb shell ime enable com.android.adbkeyboard/.AdbIME
-adb shell ime set com.android.adbkeyboard/.AdbIME   
+adb shell ime enable com.android.xg.key/.AdbIME
+adb shell ime set com.android.xg.key/.AdbIME   
 ```
  * Set it as Default Keyboard OR Select it as the current input method of certain EditText view.
  * Sending Broadcast intent via Adb or your Android Services/Apps.
@@ -100,12 +100,12 @@ adb shell am broadcast -a ADB_CLEAR_TEXT
 
 Enable ADBKeyBoard from adb :
 <pre>
-adb shell ime enable com.android.adbkeyboard/.AdbIME
+adb shell ime enable com.android.xg.key/.AdbIME
 </pre>
 
 Switch to ADBKeyBoard from adb (by [robertio](https://github.com/robertio)) :
 <pre>
-adb shell ime set com.android.adbkeyboard/.AdbIME   
+adb shell ime set com.android.xg.key/.AdbIME   
 </pre>
 
 Switch back to original virtual keyboard: (swype in my case...)

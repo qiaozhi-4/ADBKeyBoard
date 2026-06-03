@@ -4,11 +4,11 @@
     android:layout_height="wrap_content"
     android:background="#444"
     >
-    <TextView        
+
+    <TextView
         android:layout_width="wrap_content"
-    	android:layout_height="wrap_content"
-    	android:text="@string/keyboard_on"
-    	android:layout_centerInParent="true"
-    	android:textColor="#fff"
-    />
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/key_on"
+        android:textColor="#fff" />
 </RelativeLayout>
